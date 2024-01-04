@@ -1,0 +1,31 @@
+.slide {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    transition: opacity 1s;
+}
+
+.slide.active {
+    opacity: 1;
+    position: relative;
+}
+
+.indicadores {
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.indicador {
+    width: 6px;
+    height: 6px;
+    margin-left: 6px;
+    border-radius: 50%;
+    background: #6e6b6b;
+}

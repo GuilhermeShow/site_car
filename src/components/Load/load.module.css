@@ -1,0 +1,32 @@
+.container {
+    padding: 0 30em;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.load {
+    width: 100%;
+    height: 14px;
+    animation: load infinite linear 3s;
+    border-radius: 90px;
+    margin-top: 8px;
+    box-shadow: 0 0 2px black;
+}
+
+@keyframes load {
+    0% {
+        width: 0%;
+        background-color: rgb(38, 0, 255);
+    }
+    20% {
+        width: 30%;
+        background-color: rgb(38, 0, 255);
+    }
+    100% {
+        width: 100%;
+        background-color: rgb(38, 0, 255);
+    }
+}

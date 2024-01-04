@@ -1,0 +1,27 @@
+.container_sobre {
+    padding: 2em 4em;
+}
+
+.container_sobre > h3 {
+    color: rgba(0, 0, 0, 0.801);
+    margin-bottom: 30px;
+}
+
+.sobre {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sobre_values {
+    background-color: #f2f2f2;
+    padding: 0 10px;
+    width: 250px;
+    height: 70px;
+    margin: 10px 2px;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: baseline;
+    border-radius: 4px;
+}

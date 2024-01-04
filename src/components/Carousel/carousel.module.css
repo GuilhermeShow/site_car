@@ -1,0 +1,74 @@
+.container {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.835);
+    height: 260px;
+    position: relative;
+    align-items: center;
+
+}
+
+.carousel_img {
+    padding-top: 40px;
+    display: flex;
+    overflow: hidden;
+}
+
+.img {
+    width: 380px;
+}
+
+.setas {
+    display: flex;
+    cursor: pointer;
+}
+
+.left {
+    position: absolute;
+    left: 0px;
+    top: 46%;
+}
+
+.rigth {
+    position: absolute;
+    right: 0px;
+    top: 46%;
+}
+
+@media screen and (min-width: 700px) {
+    .container {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.835);
+        height: 520px;
+        position: relative;
+        align-items: center;
+    
+    }
+    
+    .carousel_img {
+        padding-top: 40px;
+        display: flex;
+        overflow: hidden;
+    }
+    
+    .img {
+        width: 1000px;
+        margin: 0 120px;
+    }
+    
+    .setas {
+        display: flex;
+        cursor: pointer;
+    }
+    
+    .left {
+        position: absolute;
+        left: 40px;
+        top: 46%;
+    }
+    
+    .rigth {
+        position: absolute;
+        right: 40px;
+        top: 46%;
+    }
+}

@@ -1,0 +1,38 @@
+.container {
+    height: 80vh;
+    background-color: #000000e0;
+    display: flex;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.container_img {
+    width: 100%;
+    margin: 0 30px ;
+    display: flex;
+    justify-content: center;
+}
+
+.container_img > img {
+    width: 950px;
+    padding: 0 10px;
+    border-radius: 6px;
+}
+
+
+.btn_esquerda {
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    background-color: #33004B;
+    padding: 0 10px;
+}
+
+.btn_direita {
+    transform: rotate(180deg);
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    background-color: #33004B;
+    padding: 0 10px;
+}
